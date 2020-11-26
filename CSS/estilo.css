@@ -1,0 +1,188 @@
+/*th{
+    border: 1px solid black;
+    font-size: 20px;
+    background-color: #DF7401;
+}
+body{
+    font-size: 18px;
+    background: #F3E2A9;
+}
+table, th{
+    width: 800px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+a{
+    text-decoration: none;
+    color: #F7FE2E;
+}
+
+h1{
+    color: #DF7401;
+}*/
+
+/* perfil 2 */
+
+body{
+    margin: 0;
+    background: #F5DA81;
+    font-size: 20px;
+}
+
+
+
+/* formatação do menu */
+
+header{
+    margin: 0px;
+}
+
+nav{
+    text-align: center;
+    position: fixed;
+    font-size: 2em;
+    display: block;
+    top: 0px;
+    background: #FAAC58;
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 40px;
+}
+
+nav a{
+    padding: 20px;
+    text-decoration: none;
+    font-size: 20px;
+    color:  #B45F04;
+    font-weight: bold;
+    text-align: center;
+}
+
+nav a:hover{
+    background: #B45F04;
+    color: #FAAC58;
+}
+
+.info{
+    display: block;
+}
+
+.topo{
+    display: block;
+    margin-top: 80px;
+}
+
+.icon{
+    font-size: 1.5em;
+    display: block;
+    z-index: -1;
+}
+
+.perfil{
+    margin: auto;
+    width: 50%;
+    z-index: -1;
+}
+
+/* formatação para o corpo da pagina */
+
+#conteudo{
+    margin-top: 100px;
+    width: 900px;
+    margin: auto;
+    text-align: center;
+    color: #FAAC58;
+    display: block;
+}
+
+#experiencia{
+    margin-bottom: 20px;
+}
+
+#formacao, #realizacoes{
+    margin-top: 200px;
+}
+
+#contatos{
+    text-align: left;
+    margin-bottom: 50px;
+}
+
+#conhecimentos table{
+    color: #B45F04;
+    text-align: center;
+}
+
+p {
+    color: #B45F04;
+}
+
+.direita{
+    float: right;
+    width: 200px;
+}
+
+.conteudo{
+    margin-top: 20px;
+}
+
+h1, h2, form{
+    color:#B45F04;
+}
+
+
+
+/* formatação da tabela */
+
+table{
+    width: 100%;
+}
+
+th{
+    color: #F5DA81;
+    border-bottom: 1px solid #F5DA81;
+    background: #B45F04;
+}
+
+/* formatação do formulario */
+
+fieldset{
+    width: 100%;
+    border: 2px solid black;
+}
+
+.btn{
+    margin: auto;
+}
+
+/* formatação do rodape */
+
+footer{
+    width: 100%;
+    background: #B45F04;
+    color: #FAAC58;
+    text-align: center;
+    font-size: 2em;
+    bottom: 0px;
+    display: block;
+}
+
+@media only screen and (max-width: 500px) {
+    nav li{
+      display: inline;
+      width: 100%;
+    }
+    nav{
+        position: relative;
+        font-size: 1.5em;
+    }
+  }
+
+  
+@media only screen and (max-width: 500px) {
+    .icon i p{
+      display: inline;
+      width: 100%;
+    }
+  }
+
