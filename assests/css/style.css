@@ -1,3 +1,23 @@
+/* reset */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0px;
+    scroll-behavior: smooth;
+    font-size: 16px;
+}
+
+h2, h3 {
+    margin: 24px auto 16px;
+}
+
+a {
+    color: inherit;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
 ol {
     list-style: none;
 }
